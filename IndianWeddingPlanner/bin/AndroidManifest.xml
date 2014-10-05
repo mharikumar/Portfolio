@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coen268_project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.coen268_project.FirstScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.SecondScreen"
+            android:label="@string/title_activity_second_screen" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.ItemList"
+            android:label="@string/title_activity_item_list" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.MyAssetDb"
+            android:label="@string/title_activity_my_asset_db" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.SubItemList"
+            android:label="@string/title_activity_sub_item_list" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.ItemsDB"
+            android:label="@string/title_activity_items_db" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.Budget"
+            android:label="@string/title_activity_budget" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.SubItemFoldersList"
+            android:label="@string/title_activity_sub_item_folders_list" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.Reminders"
+            android:label="@string/title_activity_reminders" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.SetNewReminder"
+            android:label="@string/title_activity_set_new_reminder" >
+        </activity>
+
+        <service android:name="com.example.coen268_project.ScheduleService" />
+        <service android:name="com.example.coen268_project.NotifyService" />
+
+        <activity
+            android:name="com.example.coen268_project.SetSubItemCost"
+            android:label="@string/title_activity_set_sub_item_cost" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.ToDoContacts"
+            android:label="@string/title_activity_to_do_contacts" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.ContactNames"
+            android:label="@string/title_activity_contact_names" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.ContactList"
+            android:label="@string/title_activity_contact_list" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.ContactDetails"
+            android:label="@string/title_activity_contact_details" >
+        </activity>
+        <activity
+            android:name="com.example.coen268_project.SetSubItemContact"
+            android:label="@string/title_activity_set_sub_item_contact" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

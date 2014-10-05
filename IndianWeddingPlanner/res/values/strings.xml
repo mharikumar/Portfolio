@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COEN268_Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Welcome to The Indian Wedding Planner ! </string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+    <string name="state_select">Select your state</string>
+    <string name="community_select">Select your state</string>
+
+    <string-array name="states_array">
+        <item>Kerala</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item> Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="communities_array">
+        <item>Hindu</item>
+        <item>Christian</item>
+        <item>Muslim</item>
+    </string-array>
+
+    <string name="title_activity_item_list">ItemList</string>
+    <string name="title_activity_my_asset_db">MyAssetDb</string>
+    <string name="title_activity_sub_item_list">SubItemList</string>
+    <string name="title_activity_items_db">ItemsDB</string>
+    <string name="title_activity_budget">Budget</string>
+    <string name="title_activity_sub_item_folders_list">SubItemFoldersList</string>
+    <string name="title_activity_reminders">Reminders</string>
+    <string name="title_activity_set_new_reminder">SetNewReminder</string>
+    <string name="title_activity_set_sub_item_cost">SetSubItemCost</string>
+    <string name="title_activity_to_do_contacts">ToDoContacts</string>
+    <string name="title_activity_contact_names">ContactNames</string>
+    <string name="title_activity_contact_list">ContactList</string>
+    <string name="title_activity_contact_details">ContactDetails</string>
+    <string name="title_activity_set_sub_item_contact">SetSubItemContact</string>
+
+</resources>
