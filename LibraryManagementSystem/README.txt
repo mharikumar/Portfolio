@@ -1,9 +1,3 @@
-Project Team J (COEN 275)
-Name : Meenakshy Harikumar 		SCU ID : 1001341
-Name: Nidhi Singh			SCU ID : 1027035
-
-Date of submission: 9/05/2013
-
 
 VERSION INFO:
 Java Environment version: 1.7 ( JRE7)
